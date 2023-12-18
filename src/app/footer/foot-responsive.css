@@ -1,0 +1,54 @@
+@media (max-width: 750px) and (min-width:300px) {
+    .container-5 {
+        padding: 1em;
+        width: calc(100% - 30px);
+    }
+
+    .innercont {
+        padding: 2.5em;
+        background-color: #0E63F3;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .main-2 {
+        justify-content: flex-start;
+    }
+}
+
+
+@media (max-width: 750px) and (min-width:300px) {
+
+    .main-foot {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .marg {
+        margin: 1em;
+    }
+
+    .main-1 h1 {
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4rem;
+        letter-spacing: -0.66px;
+        margin-top: 0px;
+    }
+
+    .button-appointment a {
+        text-decoration: none;
+        color: #0E63F3;
+        text-align: right;
+        font-family: Poppins;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.18px;
+    }
+}

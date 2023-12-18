@@ -1,0 +1,79 @@
+@media (min-width: 760px) and (max-width:999px) {
+    .navbar {
+        padding: 1rem 7rem 1rem 0rem;
+    }
+
+    .nav-item {
+        margin-left: 2.5rem;
+    }
+    .logo {
+        margin-right: 7rem;
+        width: 12rem;
+        justify-content: center;
+        /* display: block; */
+    }
+
+    .nav-links li {
+        margin-right: 3px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width:1500px) {
+    .navbar {
+        padding: 1rem 15rem 1rem 5rem;
+    }
+
+    .nav-item {
+        margin-left: 35px;
+    }
+    
+    .logo {
+        margin-right: 7rem;
+        justify-content: center;
+        width: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 750px) and (min-width:300px) {
+    .navbar {
+        padding: 0rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        /* width: 100%; */
+    }
+
+    .nav-links {
+        width: 100%;
+        /* display: flex; */
+    }
+
+    .nav-link {
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+    }
+    .nav-item {
+        margin-left: 2rem;
+    }
+
+    .chat-button {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-right: 0.5px;
+        margin-bottom: 1rem;
+    }
+}
